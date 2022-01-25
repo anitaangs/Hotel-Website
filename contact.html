@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #71A5DE;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #274C77;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+  <header class = "header" id = "header">
+    <div class = "head-top">
+        <div class = "site-name">
+            <span>Hotel Sunset</span>
+        </div>
+        <div class = "site-nav">
+            <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+        </div>
+    </div>
+
+    <div class = "head-bottom flex">
+        <h2>CONTACT US</h2>
+    </div>
+</header>
+<!-- end of header -->
+
+<!-- side navbar -->
+<div class = "sidenav" id = "sidenav">
+    <span class = "cancel-btn" id = "cancel-btn">
+        <i class = "fas fa-times"></i>
+    </span>
+
+    <ul class = "navbar">
+        <li><a href = "index.html">home</a></li>
+        <li><a href = "gallery.html">Gallery</a></li>
+        <li><a href = "aboutus.html">About</a></li>
+        <li><a href = "reservation.html">Book a room</a></li>
+        <li><a href = "contact.html">Contact</a></li>
+    </ul>
+
+</div>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Leave us a message:</h2>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="pics/maps.png" style="width:100%">
+      <br>
+      <i class = "fas fa-map-marker-alt"></i>
+      <h2>Sunny Beach, 8240 Sunny Beach, Bulgaria</h2>
+      <br>
+      <i class = "fas fa-phone-alt"></i>
+      <h2>055 424 250</h2>
+      <br>
+      <i class = "fas fa-envelope"></i>
+      <h2>sunsethotel@mail.bg</h2>
+    </div>
+
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="email">E-mail</label>
+        <input type="text" id="email" name="e-mail" placeholder="Your e-mail..">
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+<footer class = "footer">
+  <div class = "footer-container">
+      <div>
+          <ul class = "social-icons">
+  <li class = "flex">
+                  <i class = "fa fa-facebook fa-2x"></i>
+              </li>
+              <li class = "flex">
+                  <i class = "fa fa-instagram fa-2x"></i>
+              </li>
+          </ul>
+      </div>
+
+<div>
+          <h2>Navigation</h2>
+          <a href = "index.html">Home</a>
+          <a href = "gallery.html">Gallery</a>
+          <a href = "aboutus.html">About</a>
+          <a href = "reservation.html">Book a room</a>
+<a href = "contact.html">Contact</a>
+      </div>
+
+      <div>
+          <h2>Useful Links</h2>
+          <a href = "#">Privacy policy</a>
+          <a href = "https://travelbulgaria.news/">Travel Bulgaria News</a>
+          <a href = "https://travelfinder.bg/">Travel Bulgaria Guide</a>
+      </div>
+
+      <div>
+          <h2>Have A Question?</h2>
+          <div class = "contact-item">
+              <span>
+                  <i class = "fas fa-map-marker-alt"></i>
+              </span>
+              <span>
+                  Sunny Beach, 8240 Sunny Beach, Bulgaria
+              </span>
+          </div>
+          <div class = "contact-item">
+              <span>
+                  <i class = "fas fa-phone-alt"></i>
+              </span>
+              <span>
+                055 424 250
+              </span>
+          </div>
+          <div class = "contact-item">
+              <span>
+                  <i class = "fas fa-envelope"></i>
+              </span>
+              <span>
+                  sunsethotel@mail.bg
+              </span>
+          </div>
+      </div>
+  </div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>

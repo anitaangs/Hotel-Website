@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+	<title>
+		Reservation
+	</title>
+</head>
+<body>
+	
+		
+	<header class = "header" id = "header">
+		<div class = "head-top">
+			<div class = "site-name">
+				<span>Hotel Sunset</span>
+			</div>
+			<div class = "site-nav">
+				<span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+			</div>
+		</div>
+	
+		<div class = "head-bottom flex">
+			<h2>BOOK A ROOM</h2>
+		</div>
+	</header>
+	<!-- end of header -->
+	
+	<!-- side navbar -->
+	<div class = "sidenav" id = "sidenav">
+		<span class = "cancel-btn" id = "cancel-btn">
+			<i class = "fas fa-times"></i>
+		</span>
+	
+		<ul class = "navbar">
+			<li><a href = "index.html">home</a></li>
+			<li><a href = "gallery.html">Gallery</a></li>
+			<li><a href = "aboutus.html">About</a></li>
+			<li><a href = "reservation.html">Book a room</a></li>
+			<li><a href = "contact.html">Contact</a></li>
+		</ul>
+	
+	</div>
+	<div class = "book">
+		<form class = "book-form">
+			<div class = "form-item">
+				<label for = "full-name">Full Name: </label>
+				<input type = "name" id = "full-name">
+			</div>
+			
+			<div class = "form-item">
+				<label for = "adult">Adults: </label>
+				<input type = "number" min = "1" value = "1" id = "adult">
+			</div>
+			<div class = "form-item">
+				<label for = "children">Children: </label>
+				<input type = "number" min = "1" value = "1" id = "children">
+			</div>
+			<div class = "form-item">
+				<label for = "rooms">Rooms: </label>
+				<input type = "number" min = "1" value = "1" id = "rooms">
+			</div>
+			<div class = "form-item">
+				<label for = "checkin-date">Check-In Date: </label>
+				<input type = "date" id = "chekin-date">
+			</div>
+			<div class = "form-item">
+				<label for = "checkout-date">Check-Out Date: </label>
+				<input type = "date" id = "chekout-date">
+			</div>
+			<div class = "form-item">
+				<label for = "email">Your Email: </label>
+				<input type = "email" id = "email">
+			</div>
+			<div class = "form-item">
+				<label for = "message">Anything else?: </label>
+				<input type = "message" id = "guest-message">
+			</div>
+			<div class = "form-item">
+				<input type = "submit" class = "btn" value = "Book Now">
+			</div>
+		
+		</form>
+		
+	  
+
+	
+
+	  <footer class = "footer">
+		<div class = "footer-container">
+			<div>
+				<ul class = "social-icons">
+					<li class = "flex">
+						<i class = "fa fa-facebook fa-2x"></i>
+					</li>
+					<li class = "flex">
+						<i class = "fa fa-instagram fa-2x"></i>
+					</li>
+				</ul>
+			</div>
+
+			<div>
+				<h2>Navigation</h2>
+				<a href = "index.html">Home</a>
+				<a href = "gallery.html">Gallery</a>
+				<a href = "aboutus.html">About</a>
+				<a href = "reservation.html">Book a room</a>
+				<a href = "contact.html">Contact</a>
+			</div>
+
+			<div>
+				<h2>Useful Links</h2>
+				<a href = "#">Privacy policy</a>
+				<a href = "https://travelbulgaria.news/">Travel Bulgaria News</a>
+				<a href = "https://travelfinder.bg/">Travel Bulgaria Guide</a>
+			</div>
+
+			<div>
+				<h2>Have A Question?</h2>
+				<div class = "contact-item">
+					<span>
+						<i class = "fas fa-map-marker-alt"></i>
+					</span>
+					<span>
+						Sunny Beach, 8240 Sunny Beach, Bulgaria
+					</span>
+				</div>
+				<div class = "contact-item">
+					<span>
+						<i class = "fas fa-phone-alt"></i>
+					</span>
+					<span>
+						055 424 250
+					</span>
+				</div>
+				<div class = "contact-item">
+					<span>
+						<i class = "fas fa-envelope"></i>
+					</span>
+					<span>
+						sunsethotel@mail.bg
+					</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+	  <script src="main.js"></script>
+</body>
+</html>
